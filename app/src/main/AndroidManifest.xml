@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GkRozgar">
+        <activity android:name=".SignInPage"></activity>
+        <activity
+            android:name=".dashBoard"
+            android:label="@string/title_activity_dash_board"
+            android:theme="@style/Theme.GkRozgar.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
