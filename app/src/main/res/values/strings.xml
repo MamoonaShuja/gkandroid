@@ -14,4 +14,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forget_password"><u>Forget Password</u></string>
+    <string name="i_have_an_account"><u>Create Account</u></string>
+    <string name="already_account"><u>Already have an account</u></string>
 </resources>

@@ -3,7 +3,36 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
-    <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-
+    <dimen name="main_text">30sp</dimen>
+    <dimen name="padding_list_row">16dp</dimen>
+    <dimen name="messages_padding_left">72dp</dimen>
+    <dimen name="icon_width_height">40dp</dimen>
+    <dimen name="msg_text_primary">16sp</dimen>
+    <dimen name="msg_text_secondary">14sp</dimen>
+    <dimen name="icon_star">25dp</dimen>
+    <dimen name="icon_text">22dp</dimen>
+    <dimen name="timestamp">12dp</dimen>
+    <dimen name="ten_five_dp">15dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="tw_five_dp">25dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="tw_dp">2dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_height">200dp</dimen>
+    <dimen name="three_dp">3dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="twentytwo_sp">22sp</dimen>
+    <dimen name="nin_sp">19sp</dimen>
+    <dimen name="tw_one">21sp</dimen>
+    <dimen name="tw_three">23sp</dimen>
+    <dimen name="button_height">55dp</dimen>
+    <dimen name="button_text">16sp</dimen>
+    <dimen name="edit_text_height">60dp</dimen>
+    <dimen name="edit_text_area_height">100dp</dimen>
+    <dimen name="edit_text_drawable_padding">15dp</dimen>
+    <dimen name="card_right_left_bot">10dp</dimen>
+    <dimen name="name_text">25sp</dimen>
 </resources>
