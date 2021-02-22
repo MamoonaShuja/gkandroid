@@ -14,12 +14,37 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.gkrozgar.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="pricing"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.gkrozgar.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="About"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/contactus"
+        android:name="com.example.gkrozgar.fragments.contactus"
+        android:label="fragment_contactus"
+        tools:layout="Contact Us" />
+    <fragment
+        android:id="@+id/watchadd"
+        android:name="com.example.gkrozgar.fragments.watchadd"
+        android:label="fragment_watchadd"
+        tools:layout="@layout/fragment_watchadd" />
+    <fragment
+        android:id="@+id/buypackages"
+        android:name="com.example.gkrozgar.fragments.buypackages"
+        android:label="fragment_buypackages"
+        tools:layout="@layout/fragment_buypackages" />
+    <fragment
+        android:id="@+id/inviteandearn"
+        android:name="com.example.gkrozgar.fragments.inviteandearn"
+        android:label="fragment_inviteandearn"
+        tools:layout="@layout/fragment_inviteandearn" />
+    <fragment
+        android:id="@+id/mywallet2"
+        android:name="com.example.gkrozgar.fragments.mywallet"
+        android:label="fragment_mywallet"
+        tools:layout="@layout/fragment_mywallet" />
 </navigation>

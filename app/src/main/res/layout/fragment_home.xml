@@ -1,22 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
+
+    <RelativeLayout
+        android:id="@+id/R1"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="100dp"
+        android:background="#000080"
+
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Faizan Mahmood"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/R2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHome"
+            android:padding="4dp"
+            android:text="Rs."
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/R3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHome"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/R2"
+
+
+            android:padding="4dp"
+            android:text="89032"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textHome"
+            android:layout_toRightOf="@+id/R3"
+            android:padding="4dp"
+            android:src="@drawable/ic_baseline_refresh_24" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/textHome"
+            android:src="@drawable/ic_baseline_add_24" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/rozgar"
+        android:orientation="horizontal"
+        android:layout_below="@id/R1"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/appicon" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/R300"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/rozgar"
+        >
+
+
+        <Button
+            android:id="@+id/watchvideo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:padding="3dp"
+
+            android:text="Watch Ads" />
+
+        <Button
+            android:id="@+id/mywallet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:padding="3dp"
+
+            android:layout_toRightOf="@id/watchvideo"
+            android:text="My wallet" />
+
+        <Button
+            android:id="@+id/buypackage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:padding="3dp"
+            android:layout_toRightOf="@id/mywallet"
+            android:text="Buy Package" />
+
+        <Button
+            android:id="@+id/inviteearn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_toRightOf="@id/buypackage"
+            android:padding="3dp"
+            android:text="Invite And earn"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/R300"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+android:layout_centerInParent="true"
+            android:layout_height="100dp"
+            android:src="@drawable/qricon" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+           android:layout_centerInParent="true"
+            android:layout_below="@+id/imageView6"
+            android:layout_height="wrap_content"
+            android:text="Scan Qr Code" />
+    </RelativeLayout>
+</RelativeLayout>
