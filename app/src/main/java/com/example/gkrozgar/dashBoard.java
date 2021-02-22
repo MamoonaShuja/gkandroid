@@ -3,6 +3,8 @@ package com.example.gkrozgar;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.ImageView;
+
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -15,14 +17,24 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.gkrozgar.databinding.ActivityDashBoardBinding;
+import com.smarteist.autoimageslider.SliderView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class dashBoard extends AppCompatActivity {
+
+
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityDashBoardBinding binding;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+       /// Showing images in slider
+
+
         super.onCreate(savedInstanceState);
 
         binding = ActivityDashBoardBinding.inflate(getLayoutInflater());

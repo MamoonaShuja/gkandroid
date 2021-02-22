@@ -5,16 +5,22 @@
       <map>
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14351851851851852" />
+        <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/activity_dash_board.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/activity_sign_in_page.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/app_bar_dash_board.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/content_dash_board.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/customslideimage.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/customsliderimage.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/fragment_buypackages.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/fragment_contactus.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/fragment_inviteandearn.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/fragment_mywallet.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/fragment_watchadd.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/nav_header_dash_board.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/layout/slider_item_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Faizan Mahmood/Desktop/gkrozgar/gkandroid/app/src/main/res/menu/dash_board.xml" value="0.20416666666666666" />
       </map>
