@@ -3,8 +3,6 @@ package com.example.gkrozgar;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
-import android.widget.ImageView;
-
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -17,24 +15,14 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.gkrozgar.databinding.ActivityDashBoardBinding;
-import com.smarteist.autoimageslider.SliderView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class dashBoard extends AppCompatActivity {
-
-
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityDashBoardBinding binding;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-       /// Showing images in slider
-
-
         super.onCreate(savedInstanceState);
 
         binding = ActivityDashBoardBinding.inflate(getLayoutInflater());
@@ -53,7 +41,7 @@ public class dashBoard extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow , R.id.contactus,R.id.buypackage,R.id.mywallet)
+                R.id.nav_home, R.id.nav_profile, R.id.nav_withdraws, R.id.nav_requested_withdraws, R.id.nav_packages, R.id.nav_referals_history)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_dash_board);

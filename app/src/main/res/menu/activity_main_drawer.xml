@@ -7,22 +7,34 @@
         <item
             android:id="@+id/nav_home"
             android:menuCategory="secondary"
-            android:icon="@drawable/ic_baseline_home_24"
+            android:icon="@drawable/ic_nav_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_profile"
             android:menuCategory="secondary"
-            android:icon="@drawable/ic_baseline_attach_money_24"
-            android:title="Pricing" />
+            android:icon="@drawable/ic_nav_profile"
+            android:title="@string/menu_profile" />
         <item
             android:menuCategory="secondary"
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/about"
-            android:title="About" />
+            android:id="@+id/nav_withdraws"
+            android:icon="@drawable/ic_nav_withdraws"
+            android:title="@string/menu_withdraws" />
         <item
             android:menuCategory="secondary"
-            android:id="@+id/contactus"
-            android:icon="@drawable/contact"
-            android:title="Contact Us" />
+            android:id="@+id/nav_requested_withdraws"
+            android:icon="@drawable/ic_nav_requested_withdraws"
+            android:title="@string/menu_requested_withdraws" />
+
+        <item
+            android:menuCategory="secondary"
+            android:id="@+id/nav_packages"
+            android:icon="@drawable/ic_nav_packages"
+            android:title="@string/menu_packages" />
+
+        <item
+            android:menuCategory="secondary"
+            android:id="@+id/nav_referals_history"
+            android:icon="@drawable/ic_nav_referals_history"
+            android:title="@string/menu_referals_history" />
     </group>
 </menu>

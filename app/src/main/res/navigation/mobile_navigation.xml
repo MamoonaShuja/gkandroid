@@ -12,39 +12,33 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.gkrozgar.ui.gallery.GalleryFragment"
-        android:label="pricing"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_profile"
+        android:name="com.example.gkrozgar.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.gkrozgar.ui.slideshow.SlideshowFragment"
-        android:label="About"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_withdraws"
+        android:name="com.example.gkrozgar.ui.withdraws.WithdrawsFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_withdraws" />
+
     <fragment
-        android:id="@+id/contactus"
-        android:name="com.example.gkrozgar.fragments.contactus"
-        android:label="fragment_contactus"
-        tools:layout="Contact Us" />
+        android:id="@+id/nav_requested_withdraws"
+        android:name="com.example.gkrozgar.ui.requestedWithdraws.RequestedWithdrawsFragment"
+        android:label="@string/menu_requested_withdraws"
+        tools:layout="@layout/fragment_requested_withdraws" />
+
     <fragment
-        android:id="@+id/watchadd"
-        android:name="com.example.gkrozgar.fragments.watchadd"
-        android:label="fragment_watchadd"
-        tools:layout="@layout/fragment_watchadd" />
+        android:id="@+id/nav_packages"
+        android:name="com.example.gkrozgar.ui.packages.Packages"
+        android:label="@string/menu_packages"
+        tools:layout="@layout/fragment_packages" />
+
     <fragment
-        android:id="@+id/buypackages"
-        android:name="com.example.gkrozgar.fragments.buypackages"
-        android:label="fragment_buypackages"
-        tools:layout="@layout/fragment_buypackages" />
-    <fragment
-        android:id="@+id/inviteandearn"
-        android:name="com.example.gkrozgar.fragments.inviteandearn"
-        android:label="fragment_inviteandearn"
-        tools:layout="@layout/fragment_inviteandearn" />
-    <fragment
-        android:id="@+id/mywallet2"
-        android:name="com.example.gkrozgar.fragments.mywallet"
-        android:label="fragment_mywallet"
-        tools:layout="@layout/fragment_mywallet" />
+        android:id="@+id/nav_referals_history"
+        android:name="com.example.gkrozgar.ui.referalsHistory.ReferalsHistory"
+        android:label="@string/menu_referals_history"
+        tools:layout="@layout/fragment_referals_history" />
+
 </navigation>

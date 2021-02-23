@@ -9,12 +9,13 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_withdraws">Withdraws</string>
+    <string name="menu_requested_withdraws">Requested Withdraws</string>
+    <string name="menu_packages">Packages(View Ads)</string>
+    <string name="menu_referals_history">Referals History</string>
 
-    <string name="menu_slideshow">Slideshow</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="already_account"><u>I have already Account</u></string>
     <string name="forget_password"><u>Forget Password</u></string>
-    <string name="i_have_an_account"><u>Create Account</u></string>
-    <string name="already_account"><u>Already have an account</u></string>
+    <string name="i_have_an_account"><u>I Have an Account</u></string>
 </resources>

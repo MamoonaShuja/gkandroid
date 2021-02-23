@@ -1,4 +1,4 @@
-package com.example.gkrozgar.ui.home;
+package com.example.gkrozgar.ui.withdraws;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,13 +10,13 @@ import androidx.fragment.app.Fragment;
 
 import com.example.gkrozgar.R;
 
-public class HomeFragment extends Fragment {
+public class WithdrawsFragment extends Fragment {
 
     View root;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        root = inflater.inflate(R.layout.fragment_home, container, false);
+        root = inflater.inflate(R.layout.fragment_withdraws, container, false);
         return root;
     }
 }
