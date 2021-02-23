@@ -110,7 +110,7 @@
                     android:id="@+id/register_Password"
                     style="@style/Widget.AppCompat.EditText"
                     android:layout_width="match_parent"
-                    android:layout_height="36dp"
+                    android:layout_height="37dp"
                     android:layout_marginTop="@dimen/fab_margin"
                     android:layout_marginStart="@dimen/fab_margin"
                     android:layout_marginEnd="@dimen/fab_margin"

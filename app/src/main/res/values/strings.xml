@@ -12,10 +12,10 @@
     <string name="menu_profile">Profile</string>
     <string name="menu_withdraws">Withdraws</string>
     <string name="menu_requested_withdraws">Requested Withdraws</string>
-    <string name="menu_packages">Packages(View Ads)</string>
+    <string name="menu_packages">Packages</string>
     <string name="menu_referals_history">Referals History</string>
 
     <string name="already_account"><u>I have already Account</u></string>
     <string name="forget_password"><u>Forget Password</u></string>
-    <string name="i_have_an_account"><u>I Have an Account</u></string>
+    <string name="i_have_an_account"><u>I have no Account</u></string>
 </resources>
