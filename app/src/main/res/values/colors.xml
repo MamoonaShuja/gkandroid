@@ -7,4 +7,48 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#615adf</color>
+    <color name="colorPrimaryDark">#442FFE</color>
+    <color name="colorAccent">#8b54e4</color>
+
+
+    <color name="color1">#8b54e4</color>
+    <color name="color2">#442FFE</color>
+    <color name="color3">#3686FC</color>
+    <color name="color4">#A2A5E9</color>
+    <color name="color5">#615adf</color>
+    <color name="color6">#B548F2</color>
+
+    <color name="from">#000000</color>
+    <color name="color_primary_transparent">#20e1e1e1</color>
+    <color name="color_primary_transparent_dark">#1B673AB7</color>
+    <color name="color_black_transparent_dark">#B7000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="Category">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#8684ff</color>
+
+    <color name="colorAccentDark">#4884b3</color>
+    <color name="colorAccentSlowDark">#559acf</color>
+    <color name="colorHint">#A784DF</color>
+    <color name="colorEtText">#3e5e70</color>
+    <color name="colorText">#090909</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorDeamWhite">#e2e1e1</color>
+    <color name="colorBgTv">#1a59ba</color>
+    <color name="colorPrimarySlowDark">#1a59ba</color>
+    <color name="colorLine">#bfbfbf</color>
+    <color name="colorLineDark">#8f8f8f</color>
+
+    <color name="colorSlowBg">#f2faff</color>
+    <color name="colorBackground">#ECE3F1</color>
+    <color name="colorBackground2">#F6F6F6</color>
+    <color name="colorYellowDark">#F3B807</color>
+    <color name="colorYellow">#FFE500</color>
+    <color name="colorGreenLight">#34EF4A</color>
+
 </resources>

@@ -18,4 +18,17 @@
     <string name="already_account"><u>I have already Account</u></string>
     <string name="forget_password"><u>Forget Password</u></string>
     <string name="i_have_an_account"><u>I have no Account</u></string>
+
+    <string name="msg_verify_your_account">Click here to verify your account</string>
+    <string name="basic_account">Basic Account</string>
+    <string name="go_to_premium">GO TO PREMIUM</string>
+    <string name="personal_info">PERSONAL INFO</string>
+    <string name="email">Email</string>
+    <string name="your_invitation_code">Your Invitation Code</string>
+    <string name="invited_from">Invited From</string>
+    <string name="coin_balance">Coin balance</string>
+    <string name="earn_coins">Earn Coins</string>
+    <string name="cash_balance">Cash Balance</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="withdrawals_history">Withdrawals history</string>
 </resources>
